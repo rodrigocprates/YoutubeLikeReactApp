@@ -7,7 +7,7 @@ import VideoList from './components/video_list.js';
 import VideoDetail from './components/video_detail.js';
 
 // Use your own Youtube API KEY here by getting it on https://developers.google.com/youtube/
-const API_KEY = 'AIzaSyCjVgeXOPUVfBtUpra0jUwEEMXppshw0WQ';
+const API_KEY = 'YOUR YOUTUBE API KEY HERE';
 
 // Create a new component and produce some html.
 class App extends Component {
