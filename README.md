@@ -22,7 +22,7 @@ Class based components x Function components
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:rodrigocprates/ReduxSimpleStarter.git
+	> git clone git@github.com:rodrigocprates/YoutubeLikeReactApp.git
 	> cd ReduxSimpleStarter
 	> npm install
 	> npm start
