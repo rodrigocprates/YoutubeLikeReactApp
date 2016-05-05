@@ -1,6 +1,6 @@
-# ReduxSimpleStarter
+# YoutubeLikeReactApp
 
-A fully implemented version of React Udemy's course (https://www.udemy.com/react-redux/) to better understand React concepts.
+An implemented version of React Udemy's course (https://www.udemy.com/react-redux/) to better understand React concepts.
 
 ###Few points for reference###
 
@@ -17,6 +17,10 @@ Importing
 Class based components x Function components
 - Class based are used when you mostly need to set a STATE;
 - Function components are used when you need a simpler behaviour.
+
+###Setup###
+
+The only setup needed is to get the Youtube API key, open index.js and change API_KEY const value.
 
 ###How to run###
 Checkout this repo, install dependencies, then start the gulp process with the following:
