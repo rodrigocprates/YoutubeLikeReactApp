@@ -18,17 +18,20 @@ class App extends Component {
       this.state = { videos: [],
       selectedVideo : null };
 
+      this.videoSearch = this.videoSearch.bind(this); // bind actual "this" to make use of "this" inside videoSearch method
+
       this.videoSearch('surfboards');
   }
 
   videoSearch(term) {
     // our added npm package youtube-api-search and it's call
-    YTSearch({key: API_KEY, term: term}, (videos) => {
+    YTSearch({ key: API_KEY, term: term }, (videos) => {
+      
       this.setState({
         videos: videos,
-        selectedVideo: videos[0]
-      });
-    });
+        selectedVideo: videos[0]});
+      
+    })
   }
 
   render() {
